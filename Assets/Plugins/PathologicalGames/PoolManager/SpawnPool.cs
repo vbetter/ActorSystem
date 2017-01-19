@@ -953,6 +953,21 @@ namespace PathologicalGames
             return null;
         }
 
+        public PrefabPool GetPrefabPool(string prefabName)
+        {
+            for (int i = 0; i < this._prefabPools.Count; i++)
+            {
+                if (this._prefabPools[i].prefabGO == null)
+                    Debug.LogError(string.Format("SpawnPool {0}: PrefabPool.prefabGO is null",
+                                                 this.poolName));
+
+                if (this._prefabPools[i].prefabGO.name == prefabName)
+                    return this._prefabPools[i];
+            }
+
+            // Nothing found
+            return null;
+        }
 
         /// <summary>
         /// Returns the prefab pool for a given prefab.

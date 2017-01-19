@@ -11,7 +11,7 @@ using System.Collections;
 
 namespace GameKit
 {
-    public abstract class LogicBehaviour
+    public abstract class LogicBehaviour : MonoBehaviour
     {
         // 是否调用过Start
         bool _invoked = false;
@@ -49,6 +49,7 @@ namespace GameKit
         public virtual void Init() { }
         public virtual void Destory() { }
 
+        /*
         public void Update()
         {
             if (!_enabled)
@@ -76,6 +77,7 @@ namespace GameKit
             OnLateUpdate();
         }
 
+         */
 
         // 第一次Update时会调用OnStart()，之后不会再调用
         // Lazy load的部分可以放在OnStart()中
