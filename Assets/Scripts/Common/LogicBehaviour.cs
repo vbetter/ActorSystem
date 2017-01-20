@@ -81,15 +81,15 @@ namespace GameKit
 
         // 第一次Update时会调用OnStart()，之后不会再调用
         // Lazy load的部分可以放在OnStart()中
-        protected virtual void OnStart() { }
+        public virtual void OnStart() { }
 
         // 每帧的更新
-        protected virtual void OnUpdate() { }
-        protected virtual void OnLateUpdate() { }
+        public virtual void OnUpdate() { }
+        public virtual void OnLateUpdate() { }
 
         // 配合Enable机制
-        protected virtual void OnEnable() { }
-        protected virtual void OnDisable() { }
+        public virtual void OnEnable() { }
+        public virtual void OnDisable() { }
     }
 }
 

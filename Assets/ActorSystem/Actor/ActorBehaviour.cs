@@ -46,7 +46,20 @@ namespace GameKit
                 }
                 return _ActorSkill;
             }
-        }                                   
+        }
+
+        ActorMove _ActorMove;
+        ActorMove MyActorMove
+        {
+            get
+            {
+                if(_ActorMove == null)
+                {
+                    _ActorMove = Utils.AddMissComponent<ActorMove>(gameObject);
+                }
+                return _ActorMove;
+            }
+        }
 
         #endregion
 
@@ -102,8 +115,10 @@ namespace GameKit
             ActorID = actorID;
 
             MyActorBaseAttribBehaviour.Init(eType, actorGroup, actorID);
-
+            MyActorMove.Init(this);
             MyActorSkill.Init(actorID);
+
+            MyActorMove.MoveTo(new Vector3(50, 50, 0));
         }
 
 
@@ -141,5 +156,12 @@ namespace GameKit
 
         #endregion
 
+
+        public override void OnUpdate()
+        {
+            base.OnUpdate();
+
+            MyActorMove.OnUpdate();
+        }
     }
 }

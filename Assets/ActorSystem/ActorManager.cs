@@ -466,5 +466,21 @@ namespace GameKit
             string newStr = name.Substring(end, name.Length - end);
             return newStr;
         }
+
+
+        void Update()
+        {
+            if (_actorsDic!=null && _actorsDic.Count > 0)
+            {
+                Dictionary<uint, ActorBehaviour>.Enumerator A = _actorsDic.GetEnumerator();
+                while (A.MoveNext())
+                {
+                    if (A.Current.Value != null)
+                    {
+                        A.Current.Value.OnUpdate();
+                    }
+                }
+            }
+        }
     }
 }
