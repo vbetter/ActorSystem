@@ -16,7 +16,14 @@ public class Test : MonoBehaviour {
 	void Start () {
         ActorManager.Instance.Init();
 
-        CreateVirsualObject();
+        /*
+        for (int i = 0; i < 3; i++)
+        {
+            CreateVirsualObject();
+        }
+         */
+
+        CreateTestObject();
 	}
 	
 
@@ -25,11 +32,14 @@ public class Test : MonoBehaviour {
         Property p = new Property();
         p.HP = 10;
         string path = "";
-        ActorBehaviour actor = ActorManager.Instance.CreateActor(path, p, ActorType.VIRSUAL_OBJ, ActorGroup.Friend);
+        ActorBehaviour actor = ActorManager.Instance.CreateActor(path, p, ActorType.VIRSUAL_OBJ, ActorGroup.FRIEND);
     }
 
     void CreateTestObject()
     {
-
+        Property p = new Property();
+        p.HP = 10;
+        string path = "Player/Player_GA";
+        ActorBehaviour actor = ActorManager.Instance.CreateActor(path, p, ActorType.TEST_OBJ, ActorGroup.FRIEND);
     }
 }

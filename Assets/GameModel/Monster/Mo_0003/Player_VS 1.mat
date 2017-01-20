@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Player_VS 1
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8df3afc12c667a74f9cd0464555621bd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 08f709ab3e0c6a343816a6f0d0b30f8e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalTex
+        second:
+          m_Texture: {fileID: 2800000, guid: db34cca300aaa324c88f2414f331a245, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask1Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1262a5cd9215e3b4a8acd7fb12b23d3c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask2Tex
+        second:
+          m_Texture: {fileID: 2800000, guid: e3ed170b65a6ec7478f8d1737c8b602f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RimTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5ea0a0ba4b5db3844991708407bccc97, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FalloffTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5ea0a0ba4b5db3844991708407bccc97, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: abeae52665a66a348890da1ce7516c47, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _RimPower
+        second: 5.24571419
+      data:
+        first:
+          name: _SpecularAmp
+        second: .569999993
+      data:
+        first:
+          name: _SpecularPower
+        second: .75999999
+      data:
+        first:
+          name: _ColorFade
+        second: 1
+      data:
+        first:
+          name: _FallOffPower
+        second: .319999993
+      data:
+        first:
+          name: _SelfIlluminationPower
+        second: 1
+      data:
+        first:
+          name: _MetalnessLimit
+        second: 0
+      data:
+        first:
+          name: _EdgeColorBaseAlpha
+        second: .300000012
+      data:
+        first:
+          name: _EdgeThickness
+        second: 10
+      data:
+        first:
+          name: _ColorAdditive
+        second: 0
+      data:
+        first:
+          name: _DetailPower
+        second: 1
+      data:
+        first:
+          name: _Outline
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .522058845, g: .522058845, b: .522058845, a: 1}
+      data:
+        first:
+          name: _FallOffColor
+        second: {r: .218425587, g: .699263155, b: .742647052, a: 1}
+      data:
+        first:
+          name: _EdgeColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _DetailColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}

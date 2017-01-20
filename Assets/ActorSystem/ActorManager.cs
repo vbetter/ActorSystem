@@ -20,7 +20,7 @@ namespace GameKit
     /// </summary>
     public enum ActorType
     {
-        UNKNOWN = 0,
+        NONE = 0,
         HERO,                       // 玩家控制的英雄
         MONSTER,                    // 怪物
         SCENE_OBJ,					// 场景内可破坏物件（可破坏可点选）
@@ -36,10 +36,10 @@ namespace GameKit
     /// </summary>
     public enum ActorGroup
     {
-        UnKnown,
-        Friend,             //本人的英雄或者怪物
-        Enemy,              //敌方的英雄或者怪物
-        Neutral,            //中立怪物，本人或者敌方都会攻击它
+        NONE,
+        FRIEND,             //本人的英雄或者怪物
+        ENEMY,              //敌方的英雄或者怪物
+        NEUTRAL,            //中立怪物，本人或者敌方都会攻击它
         COUNT,
     }
 
@@ -166,7 +166,7 @@ namespace GameKit
 
             switch (actorType)
             {
-                case ActorType.UNKNOWN:
+                case ActorType.NONE:
                     break;
                 case ActorType.HERO:
                     model = CreateHeroGameObject(actorID);
@@ -337,11 +337,11 @@ namespace GameKit
             }
 
             string effectprefab_path = FormatFileName(prefab_path, fileNameType);
-
             string realName = GetNameWithRemovePath(effectprefab_path);
+
             if (EffectSpawnPool.GetPrefabPool(realName) == null)
             {
-                PrefabPool prefabPool = GetModelPrefabPool(effectprefab_path, fileNameType);
+                PrefabPool prefabPool = GetModelPrefabPool(realName,effectprefab_path, fileNameType);
 
                 if (prefabPool == null) return false;
 #if UNITY_EDITOR
@@ -357,21 +357,19 @@ namespace GameKit
         /// </summary>
         /// <param name="prefab_path"></param>
         /// <returns></returns>
-        PrefabPool GetModelPrefabPool(string prefab_path, FileNameType fileNameType = FileNameType.RESOURCE_NAME)
+        PrefabPool GetModelPrefabPool(string realName,string prefab_path, FileNameType fileNameType = FileNameType.RESOURCE_NAME)
         {
             PrefabPool prefabPool = null;
 
-            GameObject go = null;
+            Transform trans = null;
             switch (fileNameType)
             {
                 case FileNameType.NONE:
                     break;
                 case FileNameType.RESOURCE_NAME:
                     {
-                        GameObject res =Resources.Load<GameObject>(prefab_path);
-                        if (res == null) return null;
-
-                        go = Instantiate<GameObject>(res);
+                        trans = Resources.Load<Transform>(prefab_path);
+                        if (trans == null) return null;
                     }
                     break;
                 case FileNameType.ASSET_BUNDLE_NAME:
@@ -387,9 +385,9 @@ namespace GameKit
                     break;
             }
 
-            if (go != null)
+            if (trans != null)
             {
-                prefabPool = new PrefabPool(go.transform);
+                prefabPool = new PrefabPool(trans);
 
                 if (prefabPool != null)
                 {

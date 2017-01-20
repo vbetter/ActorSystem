@@ -13,23 +13,57 @@ namespace GameKit
 {
     public class ActorBehaviour : LogicBehaviour
     {
-        static uint m_NextValidGameObjectID = 1;    // UID 生成计数器
-
-        public uint UID { set; get; }
+        static uint m_NextValidGameObjectID = 1;            // UID 生成计数器
 
         public GameObject MyModel { set; get; }             // 表现模型，可以为空
-        public ActorType ActorType = ActorType.UNKNOWN;     // 角色类型
-        public ActorGroup ActorGroup = ActorGroup.UnKnown;  // 角色阵营
+
         public uint ActorID = 0;                            // 配表角色id，可以为0
+        public uint UID = 0;                                // 客户端唯一id
+
+        #region 组件
+
+        ActorBaseAttribBehaviour _ActorBaseAttribBehaviour;        // 基础属性
+        ActorBaseAttribBehaviour MyActorBaseAttribBehaviour
+        {
+            get
+            {
+                if(_ActorBaseAttribBehaviour==null)
+                {
+                    _ActorBaseAttribBehaviour = Utils.AddMissComponent<ActorBaseAttribBehaviour>(gameObject);
+                }
+                return _ActorBaseAttribBehaviour;
+            }
+        }
+
+        ActorSkill _ActorSkill;                                     // 角色技能
+        ActorSkill MyActorSkill
+        {
+            get
+            {
+                if (_ActorSkill == null)
+                {
+                    _ActorSkill = Utils.AddMissComponent<ActorSkill>(gameObject);
+                }
+                return _ActorSkill;
+            }
+        }                                   
+
+        #endregion
 
         public static ActorBehaviour CreateActorBehaviour(string fileName, GameObject model, ActorType eType, ActorGroup actorGroup, uint actorID)
         {
             GameObject obj = new GameObject(fileName);
+            if(model!=null)
+            {
+                model.transform.parent = obj.transform;
+                model.transform.localPosition = Vector3.zero;
+                model.transform.localScale = Vector3.one;
+            }
             ActorBehaviour refActorBehaviour = null;
 
             switch (eType)
             {
-                case ActorType.UNKNOWN:
+                case ActorType.NONE:
                     break;
                 case ActorType.HERO:
                     break;
@@ -61,13 +95,15 @@ namespace GameKit
 
         void Init(GameObject model, ActorType eType, ActorGroup actorGroup, uint actorID)
         {
-            m_NextValidGameObjectID++;
             UID = m_NextValidGameObjectID;
+            m_NextValidGameObjectID++;
 
             MyModel = model;
             ActorID = actorID;
-            ActorType = eType;
-            ActorGroup = actorGroup;
+
+            MyActorBaseAttribBehaviour.Init(eType, actorGroup, actorID);
+
+            MyActorSkill.Init(actorID);
         }
 
 
@@ -75,7 +111,7 @@ namespace GameKit
 
         public virtual void InitBehaviour(Property property)
         {
-
+            MyActorBaseAttribBehaviour.SetProperty(property);
         }
 
         public virtual void RemoveSelf()

@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: a209b35b461e098459dfa7b2ee048a09
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger01
+    100016: Bip001 L Finger0Nub
+    100018: Bip001 L Foot
+    100020: Bip001 L Forearm
+    100022: Bip001 L Hand
+    100024: Bip001 L Thigh
+    100026: Bip001 L Toe0
+    100028: Bip001 L Toe0Nub
+    100030: Bip001 L UpperArm
+    100032: Bip001 Neck
+    100034: Bip001 Pelvis
+    100036: Bip001 R Calf
+    100038: Bip001 R Clavicle
+    100040: Bip001 R Finger0
+    100042: Bip001 R Finger01
+    100044: Bip001 R Finger0Nub
+    100046: Bip001 R Foot
+    100048: Bip001 R Forearm
+    100050: Bip001 R Hand
+    100052: Bip001 R Thigh
+    100054: Bip001 R Toe0
+    100056: Bip001 R Toe0Nub
+    100058: Bip001 R UpperArm
+    100060: Bip001 Spine
+    100062: Bip001 Spine1
+    100064: Bip001 Xtra01
+    100066: Bip001 Xtra0102
+    100068: Bip001 Xtra0103
+    100070: Bip001 Xtra0104
+    100072: Bip001 Xtra01Nub
+    100074: Bip001 Xtra02
+    100076: Bip001 Xtra0202
+    100078: Bip001 Xtra0203
+    100080: Bip001 Xtra02Nub
+    100082: Bip001 Xtra03Nub
+    100084: Bip001 Xtra03OppNub
+    100086: Bip001 Xtra04
+    100088: Bip001 Xtra0402
+    100090: Bip001 Xtra04Nub
+    100092: DM_BREAST
+    100094: DM_HEAD
+    100096: DM_L_FOOT
+    100098: DM_L_HAND
+    100100: DM_R_FOOT
+    100102: DM_R_HAND
+    100104: DM_ROOT
+    100106: DM_WEAPON_CLSP_A
+    100108: DM_WEAPON_CLSP_A_01
+    100110: DM_WEAPON_CLSP_A_02
+    100112: DM_WEAPON_CLSP_A_03
+    100114: DM_WEAPON_CLSP_A_04
+    100116: DM_WEAPON_CLSP_B
+    100118: DM_WEAPON_CLSP_B_01
+    100120: DM_WEAPON_CLSP_B_02
+    100122: DM_WEAPON_CLSP_B_03
+    100124: DM_WEAPON_CLSP_B_04
+    100126: effect_pln_lianzi_L
+    100128: effect_pln_lianzi_R
+    100130: //RootNode
+    100132: xiuluo001
+    100134: xiuluo_weapon
+    100136: xiuluo_weapon001
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger01
+    400016: Bip001 L Finger0Nub
+    400018: Bip001 L Foot
+    400020: Bip001 L Forearm
+    400022: Bip001 L Hand
+    400024: Bip001 L Thigh
+    400026: Bip001 L Toe0
+    400028: Bip001 L Toe0Nub
+    400030: Bip001 L UpperArm
+    400032: Bip001 Neck
+    400034: Bip001 Pelvis
+    400036: Bip001 R Calf
+    400038: Bip001 R Clavicle
+    400040: Bip001 R Finger0
+    400042: Bip001 R Finger01
+    400044: Bip001 R Finger0Nub
+    400046: Bip001 R Foot
+    400048: Bip001 R Forearm
+    400050: Bip001 R Hand
+    400052: Bip001 R Thigh
+    400054: Bip001 R Toe0
+    400056: Bip001 R Toe0Nub
+    400058: Bip001 R UpperArm
+    400060: Bip001 Spine
+    400062: Bip001 Spine1
+    400064: Bip001 Xtra01
+    400066: Bip001 Xtra0102
+    400068: Bip001 Xtra0103
+    400070: Bip001 Xtra0104
+    400072: Bip001 Xtra01Nub
+    400074: Bip001 Xtra02
+    400076: Bip001 Xtra0202
+    400078: Bip001 Xtra0203
+    400080: Bip001 Xtra02Nub
+    400082: Bip001 Xtra03Nub
+    400084: Bip001 Xtra03OppNub
+    400086: Bip001 Xtra04
+    400088: Bip001 Xtra0402
+    400090: Bip001 Xtra04Nub
+    400092: DM_BREAST
+    400094: DM_HEAD
+    400096: DM_L_FOOT
+    400098: DM_L_HAND
+    400100: DM_R_FOOT
+    400102: DM_R_HAND
+    400104: DM_ROOT
+    400106: DM_WEAPON_CLSP_A
+    400108: DM_WEAPON_CLSP_A_01
+    400110: DM_WEAPON_CLSP_A_02
+    400112: DM_WEAPON_CLSP_A_03
+    400114: DM_WEAPON_CLSP_A_04
+    400116: DM_WEAPON_CLSP_B
+    400118: DM_WEAPON_CLSP_B_01
+    400120: DM_WEAPON_CLSP_B_02
+    400122: DM_WEAPON_CLSP_B_03
+    400124: DM_WEAPON_CLSP_B_04
+    400126: effect_pln_lianzi_L
+    400128: effect_pln_lianzi_R
+    400130: //RootNode
+    400132: xiuluo001
+    400134: xiuluo_weapon
+    400136: xiuluo_weapon001
+    4300000: xiuluo001
+    4300002: xiuluo_weapon
+    4300004: xiuluo_weapon001
+    4300006: effect_pln_lianzi_R
+    4300008: effect_pln_lianzi_L
+    7400000: run
+    9500000: //RootNode
+    13700000: effect_pln_lianzi_L
+    13700002: effect_pln_lianzi_R
+    13700004: xiuluo001
+    13700006: xiuluo_weapon
+    13700008: xiuluo_weapon001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DM_ROOT
+        weight: 1
+      - path: DM_ROOT/Bip001
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Footsteps
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0/Bip001 L Toe0Nub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/DM_L_FOOT
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0/Bip001 R Toe0Nub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/DM_R_FOOT
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 HeadNub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 Xtra02
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 Xtra02/Bip001 Xtra0202
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 Xtra02/Bip001 Xtra0202/Bip001 Xtra0203
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 Xtra02/Bip001 Xtra0202/Bip001 Xtra0203/Bip001 Xtra02Nub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 Xtra04
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 Xtra04/Bip001 Xtra0402
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 Xtra04/Bip001 Xtra0402/Bip001 Xtra04Nub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/DM_HEAD
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001
+          L Finger01
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001
+          L Finger01/Bip001 L Finger0Nub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/DM_L_HAND
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/DM_WEAPON_CLSP_B
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/DM_WEAPON_CLSP_B/DM_WEAPON_CLSP_B_01
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/DM_WEAPON_CLSP_B/DM_WEAPON_CLSP_B_01/DM_WEAPON_CLSP_B_02
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/DM_WEAPON_CLSP_B/DM_WEAPON_CLSP_B_01/DM_WEAPON_CLSP_B_02/DM_WEAPON_CLSP_B_03
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/DM_WEAPON_CLSP_B/DM_WEAPON_CLSP_B_01/DM_WEAPON_CLSP_B_02/DM_WEAPON_CLSP_B_03/DM_WEAPON_CLSP_B_04
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/DM_WEAPON_CLSP_B/DM_WEAPON_CLSP_B_01/DM_WEAPON_CLSP_B_02/DM_WEAPON_CLSP_B_03/DM_WEAPON_CLSP_B_04/Bip001
+          Xtra03OppNub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001
+          R Finger01
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001
+          R Finger01/Bip001 R Finger0Nub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/DM_R_HAND
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/DM_WEAPON_CLSP_A
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/DM_WEAPON_CLSP_A/DM_WEAPON_CLSP_A_01
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/DM_WEAPON_CLSP_A/DM_WEAPON_CLSP_A_01/DM_WEAPON_CLSP_A_02
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/DM_WEAPON_CLSP_A/DM_WEAPON_CLSP_A_01/DM_WEAPON_CLSP_A_02/DM_WEAPON_CLSP_A_03
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/DM_WEAPON_CLSP_A/DM_WEAPON_CLSP_A_01/DM_WEAPON_CLSP_A_02/DM_WEAPON_CLSP_A_03/DM_WEAPON_CLSP_A_04
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/DM_WEAPON_CLSP_A/DM_WEAPON_CLSP_A_01/DM_WEAPON_CLSP_A_02/DM_WEAPON_CLSP_A_03/DM_WEAPON_CLSP_A_04/Bip001
+          Xtra03Nub
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/DM_BREAST
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Xtra01
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Xtra01/Bip001 Xtra0102
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Xtra01/Bip001 Xtra0102/Bip001 Xtra0103
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Xtra01/Bip001 Xtra0102/Bip001 Xtra0103/Bip001
+          Xtra0104
+        weight: 1
+      - path: DM_ROOT/Bip001/Bip001 Pelvis/Bip001 Xtra01/Bip001 Xtra0102/Bip001 Xtra0103/Bip001
+          Xtra0104/Bip001 Xtra01Nub
+        weight: 1
+      - path: effect_pln_lianzi_L
+        weight: 1
+      - path: effect_pln_lianzi_R
+        weight: 1
+      - path: xiuluo001
+        weight: 1
+      - path: xiuluo_weapon
+        weight: 1
+      - path: xiuluo_weapon001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
